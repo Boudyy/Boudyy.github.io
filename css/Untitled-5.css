@@ -1,0 +1,123 @@
+*{
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;    
+box-sizing: border-box;    
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.navbar{
+    background-color: black;
+    font-size: 20px;
+    height: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.navbar .links{
+    float: right;
+   width: 100%;
+    margin-top: 15px;
+    text-transform: uppercase;  
+    color: black;
+   
+    text-align: center
+}
+.navbar .links li{
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0 15px;
+    font-weight: bold;
+    
+}
+.navbar .links li a{
+    color: black;
+    text-decoration: none;
+}
+.navbar .links .active a,
+.navbar .links a:hover{
+     border-bottom: 2px solid white ;
+    color:#04ca9c;
+}
+
+.header{
+    background: url('../image/Cz8wbQEWQAA_7oz.jpg');
+    position:static; 
+    margin-left:100px
+}
+.header .overlay{
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+.header .bx-wrapper {
+    box-shadow: none;
+    border: 0;
+    background: none;
+    height: 100%;
+    text-align: center;
+    padding: 230px 0 0 0;
+}
+.header .bxslider {
+    height: 100%
+}
+.header .bxslider li {
+    display: block;
+}
+
+.header .bxslider li h2{
+    font-size: 60px;
+    color: white;
+
+}
+.header .bxslider li h2 span{
+    color: black;
+     font-weight: normal;
+}
+
+.aboutme {
+background-color:#f2f2f1;
+    overflow: hidden;
+    margin:30px
+        
+}
+.aboutme .image{
+float: left;
+width: 40%
+}
+.aboutme .image img {
+width: 100%
+}
+.aboutme .info{
+float: left;
+width: 60%;
+    
+
+}
+.aboutme .info h2{
+    margin:10px 5px 10px 40px;
+    color: #555;
+    font-weight:500;
+    font-size: 50px;
+    text-align: center;
+        
+}
+.aboutme .info p{
+    margin:0px 0 10px 40px;
+    color:#7b6868;
+    line-height: 1.7;
+    
+}
+
